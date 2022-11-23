@@ -1,18 +1,25 @@
-Team name: PROJECT_DEVELOPERS
+# CIS641 Meeting Instructions
 
-Members present: Akhileswar Reddy, Gopal Reddy, Nitish, Harisai
+Hold a team meeting at least once a week in some format.  Copy the following template below into a new document, naming it GVSU-CIS641-TEAMNAME-YYYY-MM-DD (replacing TEAMNAME with your team's name and the appropriate date fields).  Commit it to this folder, ensuring it is up by each Tuesday by 11:59pm.  There should be a unique document for each meeting held.
 
-Date: 11/22/2022
+## Meeting minutes template
 
-Time: 8:00 pm
+Team name:
+
+Members present:
+
+Date:
+
+Time:
 
 Discussion points: 
 
-* We have implemented designing the system.
-* Nitish has come up with a prototype of signup and Login for the application.
-* Discussed the backend work.
-* Done with in-class Assignment( window navigation diagrams)
+*
+*
+*
 
 Goals for next week (include responsibilities)
 
-*   creating a database and further proceed to testing. 
+*
+*
+*
