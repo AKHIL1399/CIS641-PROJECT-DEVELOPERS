@@ -20,4 +20,12 @@
 * NAME of the account holder
 * ACCOUNT number and Routing number
 
+## Project artifacts and documents
+
+* [Artifacts](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/tree/master/artifacts)
+* [Docs](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/tree/master/docs)
+
 ## Run Instructions
+
+This application is on angular and node js , so to run the application we shall ask the customers to use there search engine ( chrome , Edge)
+for the data we are using mongodb as a data storage and for the dynamic data we are using postman.
