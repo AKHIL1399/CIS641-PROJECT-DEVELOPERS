@@ -23,4 +23,3 @@ Goals for next week (include responsibilities)
 *
 *
 *
-
