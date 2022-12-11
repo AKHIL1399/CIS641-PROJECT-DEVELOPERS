@@ -1,0 +1,29 @@
+<app-navbar-logout ></app-navbar-logout>
+<div class="container  mt-3">
+    <h3 class="text-center pt-3">Orders</h3>
+    <div class="m-1 text-right">
+       
+    </div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Date</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total Quantity</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items; let i=index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{item.createdDate | date:'dd/MM/yyyy'}}</td>
+            <td>{{item.totalPrice}}</td>
+            <td>{{item.products}}</td>
+            <td style="color: blue;">Completed</td>
+          </tr>
+       
+        </tbody>
+      </table>
+  
+</div>
