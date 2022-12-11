@@ -153,7 +153,7 @@ This session describes the overview of the class diagaram , usecase diagarm and 
 
 1. **Use Case Diagarm for**  [User Interface](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Use%20case%20Diagrams.pdf)
 
-2. **Use Case Diagarm for**[Registration](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Registration.pdf)
+2. **Use Case Diagarm for** [Registration](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Registration.pdf)
 
 3. **Class Diagarm for** [Order's](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Class%20Diagram.pdf)
 
