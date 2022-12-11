@@ -28,4 +28,4 @@
 ## Run Instructions
 
 This application is on angular and node js , so to run the application we shall ask the customers to use there search engine ( chrome , Edge)
-for the data we are using mongodb as a data storage and for the dynamic data we are using postman.
+for the data we are using mongodb as a data storage and for the dynamic data we are using json file .
