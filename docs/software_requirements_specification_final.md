@@ -151,15 +151,15 @@ Traceability links the relationship between requirements and the artifacts such 
 
 This session describes the overview of the class diagaram , usecase diagarm and activity diagaram
 
-1. **Use Case Diagarm** [User Interface](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Use%20case%20Diagrams.pdf)
+1. **Use Case Diagarm for**  [User Interface](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Use%20case%20Diagrams.pdf)
 
-2. **Use Case Diagarm**[Registration](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Registration.pdf)
+2. **Use Case Diagarm for**[Registration](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Registration.pdf)
 
-3. **Class Diagarm** [Order's](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Class%20Diagram.pdf)
+3. **Class Diagarm for** [Order's](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Class%20Diagram.pdf)
 
-4. **Class Diagarm** [Payment](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/class_diagram_payment.pdf)
+4. **Class Diagarm for** [Payment](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/class_diagram_payment.pdf)
 
-5.**Activity Diagarm**  [login](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/activity_diagram_login2.pdf)
+5. **Activity Diagarm for**  [login](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/activity_diagram_login2.pdf)
 
-6.**Activity Diagarm**  [Orders](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Activity%20Diagrams%20order.pdf)
+6. **Activity Diagarm for**  [Orders](https://github.com/AKHIL1399/GVSU-CIS641-PROJECT_DEVELOPERS/blob/master/artifacts/functional-models/Activity%20Diagrams%20order.pdf)
 
