@@ -1,0 +1,54 @@
+<h3 class="text-center pt-3">Register User Form</h3>
+<section class="blog-section blog-page">
+    <div class="container-fluid">
+        <form #regForm="ngForm" (ngSubmit)="SignUp(regForm)">
+        <div class="row  offset-lg-1 contact-text" >
+            <div class="col-lg-2 ">
+            </div>
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name" name="firstName" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Line Address" name="lineAddress" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="County" name="county" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Country" name="country" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" name="password" ngModel>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name" name="lastName" ngModel>
+                </div> 
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Street" name="streed" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="City" name="city" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" name="email" ngModel>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Confirm Password" name="confirmPassword" ngModel>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                    
+                    </div> 
+                    <div class="col-lg-6 mt-2 text-right sb-text">
+                        <button type="submit" Id="SignUp" class="site-btn">Login</button>
+                    </div> 
+                  </div>
+                          
+            </div>
+        </div>
+    </form>
+    </div>
+</section>

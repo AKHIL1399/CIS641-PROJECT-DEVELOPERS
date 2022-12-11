@@ -1,0 +1,206 @@
+ <!-- Page Preloder -->
+
+<!-- Offcanvas Menu Section Begin -->
+<div class="offcanvas-menu-overlay"></div>
+<div class="canvas-open">
+    <i class="icon_menu"></i>
+</div>
+<div class="offcanvas-menu-wrapper">
+    <div class="canvas-close">
+        <i class="icon_close"></i>
+    </div>
+    <div class="language-bar">
+        <div class="main-menu">
+            <ul>
+            <li><a routerLink="/sign-in">login</a></li>
+        </ul>
+        </div>
+
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a routerLink="/home"><img src="assets/img/Matrix-nobg.png" alt=""></a></li>
+            <li><a routerLink="/about-us">About Us</a></li>
+            <li><a routerLink="/gallery">Gallery</a></li>
+            <li><a routerLink="/faq">FAQ</a></li>
+            <li><a routerLink="/contact-us">Contact Us</a></li>
+
+            <li><a routerLink="/sign-in">Login</a></li>
+        </ul>
+    </nav>
+    <div class="nav-logo-right">
+        <ul>
+            <li>
+                <i class="icon_phone"></i>
+                <div class="info-text">
+                    <span>Phone:</span>
+                    <p>(+1) 345 6789 114</p>
+                </div>
+            </li>
+            <li>
+                <i class="icon_map"></i>
+                <div class="info-text">
+                    <span>Address:</span>
+                    <p>Grand Rapids , <span>Michigan</span></p>
+                </div>
+            </li>
+            <li>
+                <i class="icon_mail"></i>
+                <div class="info-text">
+                    <span>Email:</span>
+                    <p>Info.Matrix@gmail.com</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- Offcanvas Menu Section End -->
+<!-- Header Section Begin -->
+<header class="header-section header-normal">
+    <div class="top-nav">
+        <div class="ml-2 mr-2">
+            <div class="row">
+                <div class="col-md-3 pr-0">
+                    <nav class="main-menu">
+                        <ul>
+                            <li><a routerLink="/home" class="pb-0 cursor"><img src="assets/img/matrix-logo.png" alt=""></a></li>
+                            <!-- <li><a routerLink="/pre-check" class="cursor">off-grid calculator</a></li> -->
+                            <li  *ngIf="userLogin.user"><a routerLink="/orders" style="margin-top: 35px;">Orders</a></li>
+                            <li  *ngIf="userLogin.isAdmin"><a routerLink="/users" style="margin-top: 35px;">Users</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 pl-0" >
+                    <div class="top-right"  style="text-align: left !important;">
+                        <div class="language-option div-custom mt-4" >
+                            <!-- <img src="assets/img/flag.png" alt=""> -->
+                            <span style="margin-top: 12px;" >Mens</span>
+                            <i class="fa fa-angle-down"></i>
+                            <div class="flag-dropdown">
+                                <ul>
+                                    <!-- <li><a routerLink="/manage-packages">off-grid systems</a></li>
+                                    <li><a routerLink="/system-components">system components</a></li> -->
+                                    <!-- <li  *ngFor="let item of cat;    let i = index"  ><a *ngIf="cat[i].type==1" href="javascript:;"(click)="loadComponent(item.Id)">{{item.name}}</a></li> -->
+                                    <li  *ngFor="let item of cat;    let  i= index"  ><a *ngIf="cat[i].type==1" (click)="selectCategory(1,item.Id)" href="javascript:;">{{item.name}}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="language-option div-custom mt-4" >
+                            <!-- <img src="assets/img/flag.png" alt=""> -->
+                            <span style="margin-top: 12px;" >Womens</span>
+                            <i class="fa fa-angle-down"></i>
+                            <div class="flag-dropdown">
+                                <ul>
+                                    <!-- <li><a routerLink="/manage-packages">off-grid systems</a></li>
+                                    <li><a routerLink="/system-components">system components</a></li> -->
+                                    <!-- <li  *ngFor="let item of cat;    let i = index"  ><a *ngIf="cat[i].type==2" href="javascript:;"(click)="loadComponent(item.Id)">{{item.name}}</a></li> -->
+                                    <li  *ngFor="let item of cat;    let i = index"  ><a *ngIf="cat[i].type==2" (click)="selectCategory(2,item.Id)" href="javascript:;">{{item.name}}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="language-option div-custom mt-4">
+                            <!-- <img src="assets/img/flag.png" alt=""> -->
+                            <span style="margin-top: 12px;" >about us</span>
+                            <i class="fa fa-angle-down"></i>
+                            <div class="flag-dropdown">
+                                <ul >
+                                    <!-- <li><a routerLink="/gallery">Gallery</a></li> -->
+                                    <li><a routerLink="/faq">FAQ</a></li>
+                                    <li><a routerLink="/contact-us">Contact Us</a></li>
+                                    <li><a routerLink="/about-us">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <a href="#" class="property-sub">Submit Property</a> -->
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group pt-5">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                            <div class="input-group-text bg-white">
+                             <i class="fa fa-search"></i>
+     
+                            </div>
+                        </div>
+                        <input type="text" (focus)="focusFunction()" (input)="fiterItems($event.target.value)" class="form-control" #Search placeholder="Search items" name="Search">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="main-menu">
+                            <ul class="pb-0 mb-0 mr-0 ml-0">
+                            <li class="mb-0 mr-0 ml-0"  *ngIf="!userLogin.user"><a routerLink="/sign-in" style="margin-top: 35px;">login</a></li>
+                            
+                            <!-- <li  *ngIf="login==1"><a href="javascript:;" style="margin-top: 35px;"">Customer Name</a></li> -->
+                            <li  class="mb-0 mr-1 ml-1"   *ngIf="userLogin.user"><span style="margin-top: 35px;color:#2cbdb8;font-weight: 500;">{{userLogin.user.firstName}} {{userLogin.user.lastName}}</span></li>
+                            <li   class="mb-0 mr-0 ml-0"   *ngIf="userLogin.user"><a href="javascript:;" (click)="logout()" style="margin-top: 35px;">logout</a></li>
+                        </ul>
+                    </div>
+                        <div  class="text-right mt-4 pt-3 ml-2" style="display: inherit; float: right;">
+                            <h2 style="color: white;"><a routerLink="/cart"><i class="fa fa-shopping-cart fa-fount"></i> <span></span> {{cartCounter}}</a> </h2>
+                        </div>
+                   
+                    
+
+                    </div>
+                </div>
+                <!-- <div class="col-md-3">
+                    <div class="top-right">
+                        <div class="main-menu">
+ 
+                      
+                        <div  class="text-right mt-5" >
+                            <h2 style="color: white;"><a routerLink="/cart"><i class="fa fa-shopping-cart fa-fount"></i> <span></span> {{cartCounter}}</a> </h2>
+                        </div>
+                        </div>
+                    
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="nav-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <!-- <div class="" style="padding-top:17px;padding-bottom: 18px;">
+                        <a href="./index.html"><img src="assets/img/Matrix.png" alt=""></a>
+                    </div> -->
+                </div>
+                <div class="col-lg-9">
+                    <div class="nav-logo-right">
+                        <ul class="ul-st">
+                            <li class="">
+                                <i class="icon_phone "></i>
+                                <div class="info-text">
+                                    <span>Phone:</span>
+                                    <p>+1 345 6789 114</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_map"></i>
+                                <div class="info-text">
+                                    <span>Address:</span>
+                                    <p>Grand Rapids  <span>Michigan</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_mail"></i>
+                                <div class="info-text">
+                                    <span>Email:</span>
+                                    <p>Info.Matrix@gmail.com</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->

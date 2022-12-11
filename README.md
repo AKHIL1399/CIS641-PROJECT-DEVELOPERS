@@ -27,5 +27,23 @@
 
 ## Run Instructions
 
-This application is on angular and node js , so to run the application we shall ask the customers to use there search engine ( chrome , Edge)
-for the data we are using mongodb as a data storage and for the dynamic data we are using json file .
+* Note: We need Angular Cli@11.2.14 , Node:14.17.3 & Mongodb installed in the system to run this program accurately
+* Clone the git-repo
+**Project Platform Installation**
+* Download VS Code
+* Download nodejs version 14.17.3 
+* Install angular version 11.2.14
+* Install mangodb atlas 
+
+1. **Instructions to run the backend: -** 
+    * open vs termainal 
+    * install node_modules 
+    * After installation of node_modules in the  backend we need to use
+      commond : nodemon index.js 
+
+2. **Instructions to run the Frontend: -**
+     * open vs terminal
+    * install node_modules 
+    * After installation of node_modules in the  Frontend we need to use commond : ng serve -o
+
+ 

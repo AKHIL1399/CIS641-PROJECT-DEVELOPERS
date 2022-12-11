@@ -1,0 +1,52 @@
+.card1 {
+   
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  background-color: white;
+  
+}
+
+.header1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.container1 {
+  padding: 10px;
+}
+.fa-cog1 {
+  color: red;
+}
+.icon-cog {
+  color: red;
+}
+.textstyle
+{
+  padding-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.textalign{
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+h3.textstyle
+{
+  padding-left: 40px;
+  font-size: larger;
+  padding-top: 15px;
+}
+div.margintop
+{
+  margin-top: 20px;
+}
+}
+
+a:hover {
+  cursor: pointer;
+  text-emphasis-color: green;
+ }
