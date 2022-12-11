@@ -97,7 +97,7 @@ A software requirements specification describes the purpose, requirements, and t
 
 This section explains the steps  and roles involved in managing and controlling change during the project's execution and control phases. The transition or transformation of processes is addressed in the change management plan.
 
-1. How will you train people to use it?
+1. ***How will you train people to use it?***
 
 we will create a demo video tutorial and put in the website as a reference for the new users in which the user can see 
 
@@ -107,7 +107,7 @@ we will create a demo video tutorial and put in the website as a reference for t
 
 This will make the people easy how to use the website and how to make any order from the website.
 
-2.  How will you ensure it integrates within their ecosystem/software?
+2.  ***How will you ensure it integrates within their ecosystem/software?***
 
 The application has three parts, 
 1. Front end
@@ -117,7 +117,7 @@ The application has three parts,
 First we have to upload the database on the server that supports the mongoDB after successful db uploading, we have to put the collection string of the server in our backend data connection string. And provide proper user name and password of the database, after this we have to upload the backend at any node supported hosting server so we can access the api's of the application globally. 
 Once tthis process will be done then we replace the local uri with server uri for calling the api. And then upload tje front end to any node supported server.
 
-3. How will you ensure that it any discovered issues are resolved?
+3. ***How will you ensure that it any discovered issues are resolved?***
 
 We ensure that all the issues in our website are resolved for this purpose we use whiteBox testing anf blackBox testing. Further we use penetration technique to stable the app. The methodology / approach that we used is manual and automation, to ensure that there will no issues at client side after deployment. 
 If customer raises any issue, there will be a support team to facilitate our valuable customer.
