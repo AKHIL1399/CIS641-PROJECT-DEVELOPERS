@@ -27,6 +27,8 @@
 
 ## Run Instructions
 
+**The code is in SRC Folder** 
+
 * Note: We need Angular Cli@11.2.14 , Node:14.17.3 & Mongodb installed in the system to run this program accurately
 * Clone the git-repo
 **Project Platform Installation**
